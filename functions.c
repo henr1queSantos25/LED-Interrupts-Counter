@@ -19,7 +19,7 @@
 
 uint8_t volatile led_r = 0; // Intensidade do vermelho
 uint8_t volatile led_g = 0; // Intensidade do verde
-uint8_t volatile led_b = 10; // Intensidade do azul
+uint8_t volatile led_b = 100; // Intensidade do azul
 
 int volatile count_color = 1; //Variável que cuida da cor dos leds na matriz
 
@@ -128,24 +128,22 @@ void drawMatrix(int digit)
 void changeMatrixColor()
 {
 
-    uint32_t current_time = to_us_since_boot(get_absolute_time());
-
         if (count_color == 1)
         {
             led_r = 0;
             led_g = 0;
-            led_b = 10;
+            led_b = 100;
         }
         else if (count_color == 2)
         {
-            led_r = 10;
+            led_r = 100;
             led_g = 0;
             led_b = 0;
         }
         else
         {
             led_r = 0;
-            led_g = 10;
+            led_g = 100;
             led_b = 0;
         }
 
