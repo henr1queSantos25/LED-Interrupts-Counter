@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(counterLed counterLed.c )
+add_executable(counterLed counterLed.c functions.c)
 
 pico_set_program_name(counterLed "counterLed")
 pico_set_program_version(counterLed "0.1")
