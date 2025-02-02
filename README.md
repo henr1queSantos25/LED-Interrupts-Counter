@@ -11,7 +11,7 @@ Este repositório contém um exemplo de código para a implementação de **uma 
 
 ## 📹 Vídeo do Projeto  
 
-- **[Ver Vídeo](#)**   
+- **[Ver Vídeo](https://drive.google.com/file/d/1sFks35ea1MTbrGPJvWFWxy4n_XKUEMUN/view)**   
 
 ## 🛠️ Tecnologias Utilizadas  
 
