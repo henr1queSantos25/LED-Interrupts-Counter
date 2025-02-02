@@ -1,4 +1,4 @@
-# 🔢 Tarefa 1: Controle de LED 5x5 com Raspberry Pi Pico W  
+# 🔢 Controle de LED 5x5 com Raspberry Pi Pico W  
 
 Este repositório contém um exemplo de código para a implementação de **uma matriz de LEDs 5x5**, utilizando **botões físicos para alterar os números exibidos**.  
 
