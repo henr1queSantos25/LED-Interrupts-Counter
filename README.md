@@ -54,23 +54,9 @@ O sistema exibe um **número de 0 a 9 na matriz de LEDs 5x5**, e os botões fís
 | Botão 2 (Mudar cor) | GP22  |  
 | LED Vermelho | GP13  |  
 
-## 📜 Código Simplificado  
+## 💡 Desenvolvido por  
 
-```c
-// Interrupção do botão  
-void gpio_irq_handler(uint gpio, uint32_t events) {  
-    uint32_t current_time = to_us_since_boot(get_absolute_time());  
+- **Henrique Santos**  
+- **[LinkedIn](https://www.linkedin.com/in/dev-henriqueo-santos/)**  
 
-    if (current_time - last_time > 300000) {  
-        last_time = current_time;  
-
-        if (gpio == button_0) number--;  
-        else if (gpio == button_1) number++;  
-        else if (gpio == button_2) changeMatrixColor();  
-
-        if (number > 9) number = 0;  
-        else if (number < 0) number = 9;  
-
-        drawMatrix(number);  
-    }  
-}  
+---
