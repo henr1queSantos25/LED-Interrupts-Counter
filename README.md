@@ -59,4 +59,3 @@ O sistema exibe um **número de 0 a 9 na matriz de LEDs 5x5**, e os botões fís
 - **Henrique Santos**  
 - **[LinkedIn](https://www.linkedin.com/in/dev-henriqueo-santos/)**  
 
----
